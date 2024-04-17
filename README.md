@@ -9,3 +9,5 @@ Parrot auto-suggestion zsh shell
    - `git clone https://github.com/aymensecurity/parrot-zsh.git`
    - `cd parrot-zsh`
    - `bash install.sh`
+   - `sudo chsh your_username -s /bin/zsh`
+   - ` then restart your terminal`
