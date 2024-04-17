@@ -19,16 +19,15 @@ $CYAN|||||||||||||||||||||||||||||||||||||||||||||||||
 "
 echo $MAGENTA"================================================="
 echo ""
-#sudo apt install   zsh* -y
+sudo apt install   zsh* -y
 echo -n "Inter Username for zsh : "
 read get
 clear
 echo $CYAN "[+] changing..........."
 sleep 2
 mv zshrc /home/$get/.zshrc
-sudo chsh $get  -s /bin/zsh
 clear
 echo ""
-echo $CYAN "[=] now your shell is changed restart your terminal."
+echo $CYAN "[=] type this command ( sudo chsh your_username  -s /bin/zsh ) then restart your terminal."
 echo " "
 echo $ORANGE "[=] thanks for using."
