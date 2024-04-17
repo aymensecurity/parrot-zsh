@@ -19,7 +19,7 @@ $CYAN|||||||||||||||||||||||||||||||||||||||||||||||||
 "
 echo $MAGENTA"================================================="
 echo ""
-sudo apt install   zsh* -y
+sudo apt install zsh zsh-autosuggestions zsh-static zsh-common zsh-autocomplete zsh-syntax-highlighting zsh-doc zsh-antigen zsh-theme-powerlevel9k -y
 echo -n "Inter Username for zsh : "
 read get
 clear
